@@ -136,7 +136,7 @@ export default function Home() {
             transition={{ delay: 1.0, duration: 0.6 }}
           >
             {[
-              { icon: <MapPinned className="text-green-400 mb-4" />, num: "10K+", label: "Destinations" },
+              { icon: <MapPinned className="text-green-400 mb-4" />, num: "Smart Discovery", label: "AI Travel Search" },
               { icon: <Plane className="text-green-400 mb-4" />, num: "AI Powered", label: "Smart Planning" },
               { icon: <Sparkles className="text-green-400 mb-4" />, num: "Premium", label: "Cinematic UI" },
             ].map((item, i) => (
